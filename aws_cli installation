@@ -1,0 +1,23 @@
+#PIP is available on the EPEL repository, not the default one. Make sure that your system supports the EPEL repo.
+   
+   sudo yum install epel-release
+   sudo yum update -y
+   
+#Now, it’s time to install “pip”!
+ 
+ sudo yum install python-pip
+ 
+For Python3, you need the “pip3”. It’s specifically for Python 3 platform. Install “pip3” with the following command –
+  
+  sudo yum install python34-pip
+
+
+Update the “pip” or “pip3” first.
+
+sudo pip install --upgrade pip
+# OR
+sudo pip3 install --upgrade pip
+
+pip3 install awscli --upgrade --user
+#or
+pip install awscli --upgrade --user
